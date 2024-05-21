@@ -21,6 +21,7 @@ public class ErrorValidation extends BaseTest{
 		productPage pp = lp.loginPage("raj1105@gmail.com", "Raj@9211");
 		pp.addproductToCart("ADIDAS ORIGINAL");
 		cartPage cp = pp.CartHeaderNav();
+		//adding comment
 		checkoutPage ckp = cp.redirectToCheckOutpage();
 		String opp = ckp.countryEmptyFieldValidation();
 		Assert.assertEquals(opp, "Please Enter Full Shipping Information");
