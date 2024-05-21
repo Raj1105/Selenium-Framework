@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-skipped">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,41 +91,50 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,  5 skipped,  </span>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Suite">
+                    <div class="method-list-content failed suite-Suite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="withoutFrameworkTesting.ErrorValidation" class="method navigator-link" hash-for-method="loginValidation">loginValidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="withoutFrameworkTesting.standAloneUItesting" class="method navigator-link" hash-for-method="orderPageValidation">orderPageValidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="withoutFrameworkTesting.ErrorValidation" class="method navigator-link" hash-for-method="selectCountryInputValidation">selectCountryInputValidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="withoutFrameworkTesting.standAloneUItesting" class="method navigator-link" hash-for-method="submitOrder">submitOrder</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="withoutFrameworkTesting.standAloneUItesting" class="method navigator-link" hash-for-method="submitOrder({password=Raj@9211, product=ADIDAS ORIGINAL, email=raj1105@gmail.com})">submitOrder({password=Raj@9211, product=ADIDAS ORIGINAL, email=raj1105@gmail.com})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="withoutFrameworkTesting.standAloneUItesting" class="method navigator-link" hash-for-method="submitOrder">submitOrder</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="withoutFrameworkTesting.standAloneUItesting" class="method navigator-link" hash-for-method="submitOrder({password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com})">submitOrder({password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -137,9 +146,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-skipped">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
               <span class="class-name">withoutFrameworkTesting.ErrorValidation</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -148,132 +157,18 @@
                   <a name="loginValidation">
                   </a> <!-- loginValidation -->
                   <span class="method-name">loginValidation</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 121
-Current browser version is 124.0.6367.209 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;CHANDRRA_PRASD&apos;, ip: &apos;192.168.31.10&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: 	GetHandleVerifier [0x010E1673+52979]
-	(No symbol) [0x01067961]
-	(No symbol) [0x00F4DD3D]
-	(No symbol) [0x00F79981]
-	(No symbol) [0x00F78ED4]
-	(No symbol) [0x00F74794]
-	(No symbol) [0x00F712F9]
-	(No symbol) [0x00FAD2B1]
-	(No symbol) [0x00FACE5A]
-	(No symbol) [0x00FA4286]
-	(No symbol) [0x00F7C063]
-	(No symbol) [0x00F7CECD]
-	GetHandleVerifier [0x013F8D83+3294723]
-	GetHandleVerifier [0x01436CC2+3548482]
-	GetHandleVerifier [0x01431C9C+3527964]
-	GetHandleVerifier [0x0117870E+671630]
-	(No symbol) [0x01071EB4]
-	(No symbol) [0x0106D808]
-	(No symbol) [0x0106D92D]
-	(No symbol) [0x0105F7E0]
-	BaseThreadInitThunk [0x75BB7BA9+25]
-	RtlInitializeExceptionChain [0x7744BE3B+107]
-	RtlClearBits [0x7744BDBF+191]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at UtilityClass.BaseTest.initializeDriver(BaseTest.java:36)
-	at UtilityClass.BaseTest.launchApplication(BaseTest.java:60)
+                  <div class="stack-trace">java.lang.AssertionError: expected [Incorrect email or password] but found [Incorrect email or password.]
+	at withoutFrameworkTesting.ErrorValidation.loginValidation(ErrorValidation.java:16)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="selectCountryInputValidation">
-                  </a> <!-- selectCountryInputValidation -->
-                  <span class="method-name">selectCountryInputValidation</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 121
-Current browser version is 124.0.6367.209 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;CHANDRRA_PRASD&apos;, ip: &apos;192.168.31.10&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: 	GetHandleVerifier [0x010E1673+52979]
-	(No symbol) [0x01067961]
-	(No symbol) [0x00F4DD3D]
-	(No symbol) [0x00F79981]
-	(No symbol) [0x00F78ED4]
-	(No symbol) [0x00F74794]
-	(No symbol) [0x00F712F9]
-	(No symbol) [0x00FAD2B1]
-	(No symbol) [0x00FACE5A]
-	(No symbol) [0x00FA4286]
-	(No symbol) [0x00F7C063]
-	(No symbol) [0x00F7CECD]
-	GetHandleVerifier [0x013F8D83+3294723]
-	GetHandleVerifier [0x01436CC2+3548482]
-	GetHandleVerifier [0x01431C9C+3527964]
-	GetHandleVerifier [0x0117870E+671630]
-	(No symbol) [0x01071EB4]
-	(No symbol) [0x0106D808]
-	(No symbol) [0x0106D92D]
-	(No symbol) [0x0105F7E0]
-	BaseThreadInitThunk [0x75BB7BA9+25]
-	RtlInitializeExceptionChain [0x7744BE3B+107]
-	RtlClearBits [0x7744BDBF+191]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at UtilityClass.BaseTest.initializeDriver(BaseTest.java:36)
-	at UtilityClass.BaseTest.launchApplication(BaseTest.java:60)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames
+... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-skipped">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
               <span class="class-name">withoutFrameworkTesting.standAloneUItesting</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -282,140 +177,76 @@ remote stacktrace: 	GetHandleVerifier [0x010E1673+52979]
                   <a name="orderPageValidation">
                   </a> <!-- orderPageValidation -->
                   <span class="method-name">orderPageValidation</span>
-                  <div class="stack-trace">java.lang.Throwable: Method standAloneUItesting.orderPageValidation()[pri:0, instance:withoutFrameworkTesting.standAloneUItesting@33065d67] depends on not successfully finished methods
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 18 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="submitOrder">
-                  </a> <!-- submitOrder -->
-                  <span class="method-name">submitOrder</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 121
-Current browser version is 124.0.6367.209 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(@routerlink, &apos;myorders&apos;)]&quot;}
+  (Session info: chrome=124.0.6367.209)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;CHANDRRA_PRASD&apos;, ip: &apos;192.168.31.10&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: 	GetHandleVerifier [0x010E1673+52979]
-	(No symbol) [0x01067961]
-	(No symbol) [0x00F4DD3D]
-	(No symbol) [0x00F79981]
-	(No symbol) [0x00F78ED4]
-	(No symbol) [0x00F74794]
-	(No symbol) [0x00F712F9]
-	(No symbol) [0x00FAD2B1]
-	(No symbol) [0x00FACE5A]
-	(No symbol) [0x00FA4286]
-	(No symbol) [0x00F7C063]
-	(No symbol) [0x00F7CECD]
-	GetHandleVerifier [0x013F8D83+3294723]
-	GetHandleVerifier [0x01436CC2+3548482]
-	GetHandleVerifier [0x01431C9C+3527964]
-	GetHandleVerifier [0x0117870E+671630]
-	(No symbol) [0x01071EB4]
-	(No symbol) [0x0106D808]
-	(No symbol) [0x0106D92D]
-	(No symbol) [0x0105F7E0]
-	BaseThreadInitThunk [0x75BB7BA9+25]
-	RtlInitializeExceptionChain [0x7744BE3B+107]
-	RtlClearBits [0x7744BDBF+191]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\shekh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: deac45f6c64c52ad924e4a52199b33e8
+*** Element info: {Using=xpath, value=//button[contains(@routerlink, &apos;myorders&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at UtilityClass.BaseTest.initializeDriver(BaseTest.java:36)
-	at UtilityClass.BaseTest.launchApplication(BaseTest.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at withFrameWork.AbstractClass.abstractComponent.orderPageValidation(abstractComponent.java:45)
+	at withoutFrameworkTesting.standAloneUItesting.orderPageValidation(standAloneUItesting.java:52)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="submitOrder">
-                  </a> <!-- submitOrder -->
-                  <span class="method-name">submitOrder</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 121
-Current browser version is 124.0.6367.209 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;CHANDRRA_PRASD&apos;, ip: &apos;192.168.31.10&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: 	GetHandleVerifier [0x010E1673+52979]
-	(No symbol) [0x01067961]
-	(No symbol) [0x00F4DD3D]
-	(No symbol) [0x00F79981]
-	(No symbol) [0x00F78ED4]
-	(No symbol) [0x00F74794]
-	(No symbol) [0x00F712F9]
-	(No symbol) [0x00FAD2B1]
-	(No symbol) [0x00FACE5A]
-	(No symbol) [0x00FA4286]
-	(No symbol) [0x00F7C063]
-	(No symbol) [0x00F7CECD]
-	GetHandleVerifier [0x013F8D83+3294723]
-	GetHandleVerifier [0x01436CC2+3548482]
-	GetHandleVerifier [0x01431C9C+3527964]
-	GetHandleVerifier [0x0117870E+671630]
-	(No symbol) [0x01071EB4]
-	(No symbol) [0x0106D808]
-	(No symbol) [0x0106D92D]
-	(No symbol) [0x0105F7E0]
-	BaseThreadInitThunk [0x75BB7BA9+25]
-	RtlInitializeExceptionChain [0x7744BE3B+107]
-	RtlClearBits [0x7744BDBF+191]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
-	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
-	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at UtilityClass.BaseTest.initializeDriver(BaseTest.java:36)
-	at UtilityClass.BaseTest.launchApplication(BaseTest.java:60)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames
+... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">withoutFrameworkTesting.ErrorValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCountryInputValidation">
+                  </a> <!-- selectCountryInputValidation -->
+                  <span class="method-name">selectCountryInputValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">withoutFrameworkTesting.standAloneUItesting</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitOrder({password=Raj@9211, product=ADIDAS ORIGINAL, email=raj1105@gmail.com})">
+                  </a> <!-- submitOrder({password=Raj@9211, product=ADIDAS ORIGINAL, email=raj1105@gmail.com}) -->
+                  <span class="method-name">submitOrder</span>
+                  <span class="parameters">({password=Raj@9211, product=ADIDAS ORIGINAL, email=raj1105@gmail.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitOrder({password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com})">
+                  </a> <!-- submitOrder({password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com}) -->
+                  <span class="method-name">submitOrder</span>
+                  <span class="parameters">({password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -476,28 +307,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'submitOrder')
 data.setCell(0, 2, 'withoutFrameworkTesting.standAloneUItesting')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 7558);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginValidation')
-data.setCell(1, 2, 'withoutFrameworkTesting.ErrorValidation')
-data.setCell(1, 3, 0);
+data.setCell(1, 1, 'submitOrder')
+data.setCell(1, 2, 'withoutFrameworkTesting.standAloneUItesting')
+data.setCell(1, 3, 6395);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'submitOrder')
-data.setCell(2, 2, 'withoutFrameworkTesting.standAloneUItesting')
-data.setCell(2, 3, 0);
+data.setCell(2, 1, 'loginValidation')
+data.setCell(2, 2, 'withoutFrameworkTesting.ErrorValidation')
+data.setCell(2, 3, 6075);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'orderPageValidation')
-data.setCell(3, 2, 'withoutFrameworkTesting.standAloneUItesting')
-data.setCell(3, 3, 0);
+data.setCell(3, 1, 'selectCountryInputValidation')
+data.setCell(3, 2, 'withoutFrameworkTesting.ErrorValidation')
+data.setCell(3, 3, 3985);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'selectCountryInputValidation')
-data.setCell(4, 2, 'withoutFrameworkTesting.ErrorValidation')
-data.setCell(4, 3, 0);
+data.setCell(4, 1, 'orderPageValidation')
+data.setCell(4, 2, 'withoutFrameworkTesting.standAloneUItesting')
+data.setCell(4, 3, 1368);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -525,63 +356,71 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">withoutFrameworkTesting.standAloneUItesting</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">launchApplication</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">submitOrder</span>
-                <span class="method-start">3188 ms</span>
+                <span class="method-name">submitOrder({password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com})</span>
+                <span class="method-start">11064 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeWindow</span>
-                <span class="method-start">3204 ms</span>
+                <span class="method-start">18630 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">3205 ms</span>
+                <span class="method-start">18692 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">submitOrder</span>
-                <span class="method-start">3206 ms</span>
+                <span class="method-name">submitOrder({password=Raj@9211, product=ADIDAS ORIGINAL, email=raj1105@gmail.com})</span>
+                <span class="method-start">22840 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeWindow</span>
-                <span class="method-start">3211 ms</span>
+                <span class="method-start">29237 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">29309 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">orderPageValidation</span>
-                <span class="method-start">3215 ms</span>
+                <span class="method-start">33123 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeWindow</span>
+                <span class="method-start">34859 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">withoutFrameworkTesting.ErrorValidation</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">3220 ms</span>
+                <span class="method-start">34969 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">loginValidation</span>
-                <span class="method-start">4322 ms</span>
+                <span class="method-start">38628 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeWindow</span>
-                <span class="method-start">4326 ms</span>
+                <span class="method-start">44949 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">4328 ms</span>
+                <span class="method-start">45012 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">selectCountryInputValidation</span>
-                <span class="method-start">4331 ms</span>
+                <span class="method-start">49842 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeWindow</span>
-                <span class="method-start">4335 ms</span>
+                <span class="method-start">53828 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
