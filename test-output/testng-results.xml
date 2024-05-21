@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-21T14:06:40 IST" name="Suite" finished-at="2024-05-21T14:07:34 IST" duration-ms="54198">
+  <suite started-at="2024-05-21T14:22:11 IST" name="Suite" finished-at="2024-05-21T14:22:55 IST" duration-ms="44188">
     <groups>
     </groups>
-    <test started-at="2024-05-21T14:06:40 IST" name="Test" finished-at="2024-05-21T14:07:34 IST" duration-ms="54198">
+    <test started-at="2024-05-21T14:22:11 IST" name="Test" finished-at="2024-05-21T14:22:55 IST" duration-ms="44188">
       <class name="withoutFrameworkTesting.standAloneUItesting">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:withoutFrameworkTesting.standAloneUItesting@33065d67]" started-at="2024-05-21T14:06:41 IST" name="launchApplication" finished-at="2024-05-21T14:06:52 IST" duration-ms="11063" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:withoutFrameworkTesting.standAloneUItesting@33065d67]" started-at="2024-05-21T14:22:11 IST" name="launchApplication" finished-at="2024-05-21T14:22:16 IST" duration-ms="4771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:withoutFrameworkTesting.standAloneUItesting@33065d67]" started-at="2024-05-21T14:06:52 IST" name="submitOrder" data-provider="getData" finished-at="2024-05-21T14:06:59 IST" duration-ms="7558" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:withoutFrameworkTesting.standAloneUItesting@33065d67]" started-at="2024-05-21T14:22:16 IST" name="submitOrder" data-provider="getData" finished-at="2024-05-21T14:22:23 IST" duration-ms="7213" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closeWindow()[pri:0, instance:withoutFrameworkTesting.standAloneUItesting@33065d67]" started-at="2024-05-21T14:06:59 IST" name="closeWindow" finished-at="2024-05-21T14:06:59 IST" duration-ms="62" status="PASS">
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:withoutFrameworkTesting.standAloneUItesting@33065d67]" started-at="2024-05-21T14:22:23 IST" name="closeWindow" finished-at="2024-05-21T14:22:24 IST" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWindow -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:withoutFrameworkTesting.standAloneUItesting@33065d67]" started-at="2024-05-21T14:06:59 IST" name="launchApplication" finished-at="2024-05-21T14:07:03 IST" duration-ms="4148" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:withoutFrameworkTesting.standAloneUItesting@33065d67]" started-at="2024-05-21T14:22:24 IST" name="launchApplication" finished-at="2024-05-21T14:22:27 IST" duration-ms="3799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:withoutFrameworkTesting.standAloneUItesting@33065d67]" started-at="2024-05-21T14:07:03 IST" name="submitOrder" data-provider="getData" finished-at="2024-05-21T14:07:10 IST" duration-ms="6395" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:withoutFrameworkTesting.standAloneUItesting@33065d67]" started-at="2024-05-21T14:22:27 IST" name="submitOrder" data-provider="getData" finished-at="2024-05-21T14:22:34 IST" duration-ms="6747" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,98 +41,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closeWindow()[pri:0, instance:withoutFrameworkTesting.standAloneUItesting@33065d67]" started-at="2024-05-21T14:07:10 IST" name="closeWindow" finished-at="2024-05-21T14:07:10 IST" duration-ms="68" status="PASS">
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:withoutFrameworkTesting.standAloneUItesting@33065d67]" started-at="2024-05-21T14:22:34 IST" name="closeWindow" finished-at="2024-05-21T14:22:34 IST" duration-ms="60" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWindow -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:withoutFrameworkTesting.standAloneUItesting@33065d67]" started-at="2024-05-21T14:07:10 IST" name="launchApplication" finished-at="2024-05-21T14:07:14 IST" duration-ms="3814" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:withoutFrameworkTesting.standAloneUItesting@33065d67]" started-at="2024-05-21T14:22:34 IST" name="launchApplication" finished-at="2024-05-21T14:22:39 IST" duration-ms="4945" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="orderPageValidation()[pri:0, instance:withoutFrameworkTesting.standAloneUItesting@33065d67]" started-at="2024-05-21T14:07:14 IST" name="orderPageValidation" finished-at="2024-05-21T14:07:15 IST" depends-on-methods="withoutFrameworkTesting.standAloneUItesting.submitOrder" duration-ms="1368" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@routerlink, 'myorders')]"}
-  (Session info: chrome=124.0.6367.209)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'CHANDRRA_PRASD', ip: '192.168.31.10', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\shekh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: deac45f6c64c52ad924e4a52199b33e8
-*** Element info: {Using=xpath, value=//button[contains(@routerlink, 'myorders')]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@routerlink, 'myorders')]"}
-  (Session info: chrome=124.0.6367.209)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'CHANDRRA_PRASD', ip: '192.168.31.10', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\shekh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: deac45f6c64c52ad924e4a52199b33e8
-*** Element info: {Using=xpath, value=//button[contains(@routerlink, 'myorders')]}
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-at withFrameWork.AbstractClass.abstractComponent.orderPageValidation(abstractComponent.java:45)
-at withoutFrameworkTesting.standAloneUItesting.orderPageValidation(standAloneUItesting.java:52)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="orderPageValidation()[pri:0, instance:withoutFrameworkTesting.standAloneUItesting@33065d67]" started-at="2024-05-21T14:22:39 IST" name="orderPageValidation" finished-at="2024-05-21T14:22:42 IST" depends-on-methods="withoutFrameworkTesting.standAloneUItesting.submitOrder" duration-ms="2454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderPageValidation -->
-        <test-method is-config="true" signature="closeWindow()[pri:0, instance:withoutFrameworkTesting.standAloneUItesting@33065d67]" started-at="2024-05-21T14:07:15 IST" name="closeWindow" finished-at="2024-05-21T14:07:16 IST" duration-ms="108" status="PASS">
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:withoutFrameworkTesting.standAloneUItesting@33065d67]" started-at="2024-05-21T14:22:42 IST" name="closeWindow" finished-at="2024-05-21T14:22:42 IST" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWindow -->
       </class> <!-- withoutFrameworkTesting.standAloneUItesting -->
       <class name="withoutFrameworkTesting.ErrorValidation">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:withoutFrameworkTesting.ErrorValidation@712625fd]" started-at="2024-05-21T14:07:16 IST" name="launchApplication" finished-at="2024-05-21T14:07:19 IST" duration-ms="3659" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:withoutFrameworkTesting.ErrorValidation@712625fd]" started-at="2024-05-21T14:22:42 IST" name="launchApplication" finished-at="2024-05-21T14:22:45 IST" duration-ms="3603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="loginValidation()[pri:0, instance:withoutFrameworkTesting.ErrorValidation@712625fd]" started-at="2024-05-21T14:07:19 IST" name="loginValidation" finished-at="2024-05-21T14:07:25 IST" duration-ms="6075" status="FAIL">
+        <test-method signature="loginValidation()[pri:0, instance:withoutFrameworkTesting.ErrorValidation@712625fd]" started-at="2024-05-21T14:22:45 IST" name="loginValidation" finished-at="2024-05-21T14:22:46 IST" duration-ms="1001" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Incorrect email or password] but found [Incorrect email or password.]]]>
@@ -177,19 +108,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginValidation -->
-        <test-method is-config="true" signature="closeWindow()[pri:0, instance:withoutFrameworkTesting.ErrorValidation@712625fd]" started-at="2024-05-21T14:07:26 IST" name="closeWindow" finished-at="2024-05-21T14:07:26 IST" duration-ms="62" status="PASS">
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:withoutFrameworkTesting.ErrorValidation@712625fd]" started-at="2024-05-21T14:22:47 IST" name="closeWindow" finished-at="2024-05-21T14:22:47 IST" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWindow -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:withoutFrameworkTesting.ErrorValidation@712625fd]" started-at="2024-05-21T14:07:26 IST" name="launchApplication" finished-at="2024-05-21T14:07:30 IST" duration-ms="4830" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:withoutFrameworkTesting.ErrorValidation@712625fd]" started-at="2024-05-21T14:22:47 IST" name="launchApplication" finished-at="2024-05-21T14:22:51 IST" duration-ms="4217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="selectCountryInputValidation()[pri:0, instance:withoutFrameworkTesting.ErrorValidation@712625fd]" started-at="2024-05-21T14:07:30 IST" name="selectCountryInputValidation" finished-at="2024-05-21T14:07:34 IST" duration-ms="3985" status="PASS">
+        <test-method signature="selectCountryInputValidation()[pri:0, instance:withoutFrameworkTesting.ErrorValidation@712625fd]" started-at="2024-05-21T14:22:51 IST" name="selectCountryInputValidation" finished-at="2024-05-21T14:22:55 IST" duration-ms="4364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCountryInputValidation -->
-        <test-method is-config="true" signature="closeWindow()[pri:0, instance:withoutFrameworkTesting.ErrorValidation@712625fd]" started-at="2024-05-21T14:07:34 IST" name="closeWindow" finished-at="2024-05-21T14:07:34 IST" duration-ms="75" status="PASS">
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:withoutFrameworkTesting.ErrorValidation@712625fd]" started-at="2024-05-21T14:22:55 IST" name="closeWindow" finished-at="2024-05-21T14:22:55 IST" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWindow -->

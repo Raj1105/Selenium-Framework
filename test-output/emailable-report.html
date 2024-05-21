@@ -9,42 +9,17 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">54,198</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">44,188</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">withoutFrameworkTesting.ErrorValidation</td><td><a href="#m0">loginValidation</a></td><td rowspan="1">1716280639721</td><td rowspan="1">6075</td></tr><tr class="failedodd"><td rowspan="1">withoutFrameworkTesting.standAloneUItesting</td><td><a href="#m1">orderPageValidation</a></td><td rowspan="1">1716280634216</td><td rowspan="1">1368</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">withoutFrameworkTesting.ErrorValidation</td><td><a href="#m2">selectCountryInputValidation</a></td><td rowspan="1">1716280650935</td><td rowspan="1">3985</td></tr><tr class="passedodd"><td rowspan="2">withoutFrameworkTesting.standAloneUItesting</td><td><a href="#m3">submitOrder</a></td><td rowspan="2">1716280623933</td><td rowspan="2">6395</td></tr><tr class="passedodd"><td><a href="#m4">submitOrder</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">withoutFrameworkTesting.ErrorValidation</td><td><a href="#m0">loginValidation</a></td><td rowspan="1">1716281565745</td><td rowspan="1">1001</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">withoutFrameworkTesting.ErrorValidation</td><td><a href="#m1">selectCountryInputValidation</a></td><td rowspan="1">1716281571496</td><td rowspan="1">4364</td></tr><tr class="passedodd"><td rowspan="3">withoutFrameworkTesting.standAloneUItesting</td><td><a href="#m2">orderPageValidation</a></td><td rowspan="1">1716281559583</td><td rowspan="1">2454</td></tr><tr class="passedodd"><td><a href="#m3">submitOrder</a></td><td rowspan="2">1716281536732</td><td rowspan="2">7213</td></tr><tr class="passedodd"><td><a href="#m4">submitOrder</a></td></tr></tbody>
 </table>
 <h2>Test</h2><h3 id="m0">withoutFrameworkTesting.ErrorValidation#loginValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Incorrect email or password] but found [Incorrect email or password.]
 	at withoutFrameworkTesting.ErrorValidation.loginValidation(ErrorValidation.java:16)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 ... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">withoutFrameworkTesting.standAloneUItesting#orderPageValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(@routerlink, &apos;myorders&apos;)]&quot;}
-  (Session info: chrome=124.0.6367.209)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;CHANDRRA_PRASD&apos;, ip: &apos;192.168.31.10&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\shekh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: deac45f6c64c52ad924e4a52199b33e8
-*** Element info: {Using=xpath, value=//button[contains(@routerlink, &apos;myorders&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-	at withFrameWork.AbstractClass.abstractComponent.orderPageValidation(abstractComponent.java:45)
-	at withoutFrameworkTesting.standAloneUItesting.orderPageValidation(standAloneUItesting.java:52)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">withoutFrameworkTesting.ErrorValidation#selectCountryInputValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">withoutFrameworkTesting.standAloneUItesting#submitOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Raj@9211, product=ADIDAS ORIGINAL, email=raj1105@gmail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">withoutFrameworkTesting.standAloneUItesting#submitOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">withoutFrameworkTesting.ErrorValidation#selectCountryInputValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">withoutFrameworkTesting.standAloneUItesting#orderPageValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">withoutFrameworkTesting.standAloneUItesting#submitOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">withoutFrameworkTesting.standAloneUItesting#submitOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Raj@9211, product=ADIDAS ORIGINAL, email=raj1105@gmail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

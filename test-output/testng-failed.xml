@@ -13,14 +13,6 @@
           <include name="loginValidation"/>
         </methods>
       </class> <!-- withoutFrameworkTesting.ErrorValidation -->
-      <class name="withoutFrameworkTesting.standAloneUItesting">
-        <methods>
-          <include name="launchApplication"/>
-          <include name="orderPageValidation"/>
-          <include name="closeWindow"/>
-          <include name="submitOrder"/>
-        </methods>
-      </class> <!-- withoutFrameworkTesting.standAloneUItesting -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

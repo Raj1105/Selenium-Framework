@@ -12,7 +12,7 @@ public class ErrorValidation extends BaseTest{
 	
 	@Test
 	public void loginValidation() {
-		lp.loginPage("raj1105@gmail.com", "Raj@921");
+		lp.loginPage("raj1105@gmail.com", "Raj@9211");
 		Assert.assertEquals(lp.LoginErrorMsg(), "Incorrect email or password");
 	}
 
