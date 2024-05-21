@@ -19,7 +19,7 @@
           <include name="launchApplication"/>
           <include name="orderPageValidation"/>
           <include name="closeWindow"/>
-          <include name="submitOrder" invocation-numbers="0 1"/>
+          <include name="submitOrder"/>
         </methods>
       </class> <!-- withoutFrameworkTesting.standAloneUItesting -->
     </classes>
